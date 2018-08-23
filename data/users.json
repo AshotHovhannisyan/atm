@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Ruben",
+        "password":"ruben123",
+        "card_id":123456,
+        "money":5000
+    },
+    {
+        "name":"Ruben",
+        "password":"ruben123",
+        "card_id":456789,
+        "money":1233
+    },
+    {
+        "name":"Davit",
+        "password":"ruben123",
+        "card_id":987654,
+        "money":3000
+    },
+    {
+        "name":"Ruben",
+        "password":"ruben123",
+        "card_id":1654321,
+        "money":5000
+    }
+]
