@@ -4,7 +4,7 @@
 const _find = require('lodash/find');
 const _isEmpty = require('lodash/isEmpty');
 
-const users = require('../users.json')
+const users = require('../users.json');
 
 // let user = _find(users, (item)=>{
 //     return item.card_id === 123456
@@ -19,7 +19,6 @@ class Bank {
     }
 
     checkUser(cardId, password){
-        
         const user = this.findUserByCardId(cardId);
 
         if(!_isEmpty(user)){
@@ -29,23 +28,18 @@ class Bank {
                     message:'ok'
                 }
             }
-    
             return {
                 action:false,
                 message:'wrong password'
             }
         }
-
         return {
             action:false,
             message:'invalid credentials'
         };
-
-
     }
 
     getCardInfo(cardId){
-
         const user = this.findUserByCardId(cardId);
         if(!_isEmpty(user)){
             return {

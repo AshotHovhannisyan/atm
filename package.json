@@ -10,7 +10,9 @@
   "author": "it-team",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "prompt": "^1.0.0",
+    "prompt-input": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
