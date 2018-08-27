@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Igor",
+		"password": "ruben123",
+		"card_id": 123456,
+		"money": 6200,
+		"maximum_change": 2000
+	},
+	{
+		"name": "Ruben",
+		"password": "ruben123",
+		"card_id": 456789,
+		"money": 12345,
+		"maximum_change": 3000
+	},
+	{
+		"name": "Davit",
+		"password": "ruben123",
+		"card_id": 987654,
+		"money": 3000,
+		"maximum_change": 4000
+	},
+	{
+		"name": "Ruben",
+		"password": "ruben123",
+		"card_id": 1654321,
+		"money": 5000,
+		"maximum_change": 5000
+	}
+]
